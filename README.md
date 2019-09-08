@@ -1,5 +1,5 @@
 # Mini-Compiler
-
+This is implemention of a simple remote shell connection. The server process and the client process runs on two different machines and the communication between two processes is achieved through Sockets.
 
 Technology Used: C, Nano editor, Linux GNU bash compiler.
 
