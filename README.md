@@ -1,9 +1,7 @@
 # Mini-Compiler
-This is a compiler based on client server architecture designed using fork, exec, dup2 and socket programming concepts.
 
-Technology Used: C, Nano editor, Linux GNU bash compiler
 
-S.c is server program and C.c is client program. Run both programs on different servers and server should be ran first.
+Technology Used: C, Nano editor, Linux GNU bash compiler.
 
 Steps to run:
 1. Get IP address of server by command: hostname -I and save it eg. 136.127.45.98
@@ -15,6 +13,7 @@ Steps to run:
 
 See Output video for live demo.
 
+Description:
 The server task can be summarized as follows :
 • The server start running before any client, and wait for connections.
 • When the server gets a client, forks and, the child process take care of the client in a separate function, called serviceClient, while the parent process goes back to wait for
