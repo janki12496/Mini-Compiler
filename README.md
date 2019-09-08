@@ -1,6 +1,8 @@
 # Mini-Compiler
 This is a compiler based on client server architecture designed using fork, exec, dup2 and socket programming concepts.
 
+Technology Used: C, Nano editor, Linux GNU bash compiler
+
 S.c is server program and C.c is client program. Run both programs on different servers and server should be ran first.
 
 Steps to run:
